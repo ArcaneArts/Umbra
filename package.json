@@ -1,0 +1,20 @@
+{
+  "name": "umbra",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "packageManager": "pnpm@11.15.1",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs dev",
+    "devtop": "node scripts/dev.mjs devtop",
+    "dev:site": "node scripts/dev.mjs dev:site",
+    "infra:up": "node scripts/dev.mjs infra:up",
+    "infra:down": "node scripts/dev.mjs infra:down",
+    "infra:logs": "node scripts/dev.mjs infra:logs",
+    "infra:compose": "node scripts/dev.mjs infra:compose",
+    "test:tooling": "node --test scripts/dev.test.mjs"
+  }
+}
